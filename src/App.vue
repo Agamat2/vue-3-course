@@ -25,7 +25,7 @@ import PostList from '@/components/PostList.vue'
         },
         methods: {
         createPost(post){
-
+this.posts.push(post)
             }
         },
     }
